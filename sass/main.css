@@ -1,0 +1,252 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 90%;
+}
+
+.h2 {
+  font-weight: bold;
+}
+
+.span {
+  color: #4ecc85;
+}
+
+.main_container {
+  max-width: 450px;
+  margin: auto;
+}
+
+.main {
+  width: 90%;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 1px 4px 46px -2px rgba(0, 0, 0, 0.4);
+          box-shadow: 1px 4px 46px -2px rgba(0, 0, 0, 0.4);
+}
+
+header {
+  border-radius: 0rem 0rem 1rem 1rem;
+  color: white;
+  background-color: #4ecc85;
+}
+
+header .nav_hed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header .nav_hed a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  border-bottom: 0.2rem solid transparent;
+}
+
+header .nav_hed a:hover {
+  border-bottom: 0.2rem solid white;
+}
+
+header .navbar {
+  background-color: #4ecc85;
+}
+
+header .navbar .navbar-brand {
+  color: white;
+}
+
+.main_header {
+  background-color: #4ecc85;
+  background-image: url("../img/sp_main_bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 3rem 1rem 1rem 1rem;
+  border-radius: 1rem 1rem 0rem 0rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+}
+
+.main_header img {
+  width: 55%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+
+.main_header .shoshal_icon {
+  margin-top: 1rem;
+}
+
+.main_header .shoshal_icon a {
+  text-decoration: none;
+  color: wheat;
+}
+
+.main_header .shoshal_icon a i {
+  font-size: 1.6rem;
+  margin: 0rem 1rem;
+  padding: 0.5rem;
+}
+
+.main_main {
+  padding: 1rem;
+}
+
+.main_main p {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  line-height: 1.9rem;
+}
+
+.main_footer {
+  padding: 1rem;
+}
+
+.main_footer table tr td {
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+}
+
+.main_footer table tr td a {
+  text-decoration: none;
+  color: #4ecc85;
+}
+
+footer .footer_copyright h6 {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+footer .footer_menu ul {
+  list-style: none;
+  margin: 0rem;
+  padding: 0rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  overflow: auto;
+}
+
+footer .footer_menu ul li {
+  margin: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+footer .footer_menu ul li a {
+  text-decoration: none;
+  color: #4ecc85;
+}
+
+footer .footer_menu ul li a i {
+  font-size: 1.8rem;
+}
+
+footer .footer_menu ul li a span {
+  font-size: 1.2rem;
+}
+
+.Services_page .main_header {
+  padding: 1rem;
+}
+
+.Services_page .main_main .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Services_page .main_main .cards .btn {
+  background-color: #4ecc85;
+  color: white;
+}
+
+.media_page .main_header {
+  padding: 1rem;
+}
+
+.media_page .img_row img {
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.media_page .vid_row iframe {
+  height: 200px;
+  width: 100%;
+  margin: auto;
+  padding-top: 1rem;
+}
+
+.payment_page .btn {
+  background-color: #4ecc85;
+  color: white;
+}
+
+.Enquiry_page .btn {
+  background-color: #4ecc85;
+  color: white;
+}
+
+.Enquiry_page iframe {
+  margin-top: 2rem;
+  width: 100%;
+  height: 20rem;
+}
+/*# sourceMappingURL=main.css.map */
